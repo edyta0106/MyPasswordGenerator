@@ -14,12 +14,12 @@ var specialArray = ['!', '@', '#', '$', '*', '%'];
 function generatePassword() {
   
   // Used variable passwordLength to prompt the minimum and maximum characters we are using
-  var passwordLength = prompt("Choose a length of your password between 8 and 128");
+  var passwordLength = prompt("Choose a length of your password between 8 and 128 characters long");
   passwordLength = Number(passwordLength);
 
   // Create an if statement for an alert when characters don't meet the required password length
   if (passwordLength < 8 || passwordLength > 128) {
-      alert("Password must me between 8 and 128 characters long")
+      alert("Password must me between 8 and 128 characters long. Please try again")
       generatePassword()
    };
 
@@ -29,7 +29,7 @@ function generatePassword() {
   var numbers = confirm("Please confirm numbers");
   var special = confirm("Please confirm special characters");
 
-  // Create newChars variable to include and array of lower case letters, upper case letters, numbers and special characters
+  // Create newChars variable to include an array of lower case letters, upper case letters, numbers and special characters by using the concat method
   var newChars = [];
 
    if (lowerCase) {
