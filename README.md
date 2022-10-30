@@ -20,7 +20,9 @@ A password will generate once user confirms all alerts and prompts and a new pas
 
 The following link deploys the application:
 
+https://edyta0106.github.io/MyPasswordGenerator/
 
+![Alt text](./Assets/Screen%20Shot%202022-10-30%20at%205.06.33%20PM%20(2).png)
 
 The following image shows the web application's appearance and functionality:
 
